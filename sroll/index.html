@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>自定义滚动条样式</title>
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+   <!--[if lt IE 9]>
+       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+   <![endif]-->
+  <style media="screen">
+  .srollStyle{
+    height: 140px;
+    width: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+
+
+  /*滚动条宽度*/
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  /* 轨道样式 */
+  ::-webkit-scrollbar-track {
+
+  }
+
+  /* Handle样式 */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background:rgba(45, 45, 43, 0.2);
+  }
+
+  /*当前窗口未激活的情况下*/
+  ::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(230,20,0,0.1);
+  }
+
+  /*hover到滚动条上*/
+  ::-webkit-scrollbar-thumb:vertical:hover{
+    background-color: rgba(0,0,0,0.3);
+  }
+  /*滚动条按下*/
+  ::-webkit-scrollbar-thumb:vertical:active{
+    background-color: rgba(0,0,0,0.7);
+  }
+
+  /*IE*/
+
+  .srollStyle{
+  scrollbar-arrow-color: rgba(45, 45, 143); /*三角箭头的颜色*/
+  scrollbar-face-color: rgba(45, 245, 43); /*立体滚动条的颜色（包括箭头部分的背景色）*/
+  scrollbar-3dlight-color: rgba(45, 245, 43); /*立体滚动条亮边的颜色*/
+  scrollbar-highlight-color: red; /*滚动条的高亮颜色（左阴影？）*/
+  scrollbar-shadow-color: blue; /*立体滚动条阴影的颜色*/
+  scrollbar-darkshadow-color: green; /*立体滚动条外阴影的颜色*/
+  scrollbar-track-color: #eee; /*立体滚动条背景颜色*/
+  scrollbar-base-color:#000; /*滚动条的基色*/
+}
+  </style>
+</head>
+<body>
+  <div class="srollStyle">
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+    fdsla;dsafkjal;dsjlkfl;sdkjfl;sdkjlf;ajksdlfjweoiuroeriopjlfdsfk;lds'fk;a'sdkf;'asdfkdsjdjkfl;adskjfl;asdjkfl;s'
+  </div>
+</body>
+</html>
